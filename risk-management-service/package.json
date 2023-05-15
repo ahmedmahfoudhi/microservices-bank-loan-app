@@ -1,0 +1,21 @@
+{
+  "name": "risk-management-service",
+  "version": "1.0.0",
+  "description": "microservice to process client application and has access to the bank database",
+  "main": "risk-management.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node risk-management.js",
+    "dev": "nodemon risk-management.js"
+  },
+  "author": "Ahmed Mahfoudhi",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
